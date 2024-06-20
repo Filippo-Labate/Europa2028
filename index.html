@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Europa 2028 - The European Magazine</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <nav class="navbar">
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#topics">Temi</a></li>
+        <li><a href="#about">Chi siamo</a></li>
+        <li><a href="#elearn">E-learn</a></li>
+    </ul>
+</nav>
+    <header class="hero-section" id="home">
+        <div class="hero-content">
+            <h1>Europa 2028</h1>
+            <h2>The European Magazine</h2>
+            <button class="scroll-button" onclick="scrollToSection()">Discover more</button>
+        </div>
+        <div class="hero-graphic">
+            <img src="graphic1.png" alt="Europa Graphic">
+        </div>
+    </header> 
+
+    <section class="introduction">
+    <div class="container">
+        <div class="text">Your Text Here</div>
+        <img src="star.svg" class="star" style="--i: 1;">
+        <img src="star.svg" class="star" style="--i: 2;">
+        <img src="star.svg" class="star" style="--i: 3;">
+        <img src="star.svg" class="star" style="--i: 4;">
+        <img src="star.svg" class="star" style="--i: 5;">
+        <img src="star.svg" class="star" style="--i: 6;">
+        <img src="star.svg" class="star" style="--i: 7;">
+        <img src="star.svg" class="star" style="--i: 8;">
+        <img src="star.svg" class="star" style="--i: 9;">
+        <img src="star.svg" class="star" style="--i: 10;">
+        <img src="star.svg" class="star" style="--i: 11;">
+        <img src="star.svg" class="star" style="--i: 12;">
+    </div>
+    </section>
+    
+    <section class="topics-section" id="topics">
+        <div class="topic">
+            <div class="star">
+                <h3>Topic 1</h3>
+            </div>
+            <div class="topic-content">
+                <p>Short introduction to topic 1.</p>
+                <a href="topic1.html" class="btn">Read more</a>
+            </div>
+        </div>
+        <div class="topic">
+            <div class="star">
+                <h3>Topic 2</h3>
+            </div>
+            <div class="topic-content">
+                <p>Short introduction to topic 2.</p>
+                <a href="topic2.html" class="btn">Read more</a>
+            </div>
+        </div>
+        <div class="topic">
+            <div class="star">
+                <h3>Topic 3</h3>
+            </div>
+            <div class="topic-content">
+                <p>Short introduction to topic 3.</p>
+                <a href="topic3.html" class="btn">Read more</a>
+            </div>
+        </div>
+        <div class="topic">
+            <div class="star">
+                <h3>Topic 4</h3>
+            </div>
+            <div class="topic-content">
+                <p>Short introduction to topic 4.</p>
+                <a href="topic4.html" class="btn">Read more</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-section">
+        <div class="footer-left">
+            <p>Buy our book on Amazon</p>
+            <div class="amazon-embed">
+                <iframe src="https://www.mondadoristore.it/Europa-2028-the-european-na/eai979128019797/" width="100%" height="100%" frameborder="0"> </iframe>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p>Follow us on Instagram</p>
+            <div class="instagram-embed">
+                <iframe width="320" height="440" src="https://www.instagram.com/europa_2028?igsh=MWp1NGI0cmt2OGpvMg==" frameborder="0"></iframe>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        function scrollToSection() {
+            document.querySelector('.introduction').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
