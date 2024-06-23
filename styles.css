@@ -22,9 +22,6 @@ body {
   box-shadow: 0 2px 5px rgb(0, 0, 0);
 }
 
-
-
-
 .navbar ul {
   list-style: none;
   display: flex;
@@ -54,6 +51,8 @@ body {
   justify-content: left;
 }
 
+
+/*hero section*/
 .hero-section {
   display: flex;
   justify-content: space-between;
@@ -134,6 +133,7 @@ body {
   height: auto;
 }
 
+/*introduction section*/
 .container {
   position: center;
   bottom: 50%;
@@ -164,6 +164,7 @@ body {
   filter: brightness(0) saturate(100%) invert(76%) sepia(79%) saturate(507%) hue-rotate(356deg) brightness(101%) contrast(103%);
 }
 
+/*topics section*/
 .topics-section {
   display: flex;
   flex-wrap: wrap;
@@ -219,6 +220,7 @@ body {
   transform: scale(1.05);
 }
 
+/*footer section*/
 .footer-section {
   display: flex;
   justify-content: space-between;
@@ -243,6 +245,7 @@ body {
   overflow: hidden;
 }
 
+/*for mobile devices*/
 @media (max-width: 768px) {
   .navbar ul {
     flex-direction: left;
@@ -309,7 +312,7 @@ body {
 
 /* Apply animations to sections */
 .hero-content, .topic, .footer-section {
-  animation: fadeIn 1s ease-in-out;
+  animation: fadeIn 1.2s ease-in-out;
 }
 
 /* Microinteractions for buttons */
@@ -318,19 +321,6 @@ body {
   overflow: hidden;
 }
 
-.btn::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 300%;
-  height: 300%;
-  background: rgba(255, 255, 255, 0.3);
-  transform: translate(-50%, -50%) scale(0);
-  border-radius: 50%;
-  transition: transform 0.5s;
-}
-
 .btn:hover::after {
-  transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%) scale(1.05);
 }
