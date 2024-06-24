@@ -150,9 +150,14 @@ body {
 
 .container .text {
   position: absolute;
+  display: flex;
   z-index: 1;
-  font-size: 1.5rem;
+  font-size: 2.5vh;
   color: #ffffff;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100vh
 }
 
 .container img {
@@ -160,7 +165,7 @@ body {
   width: 5vw; /* Adjust the size of the stars */
   height: 5vw;
   transform-origin: 50% 50%;
-  transform: rotate(calc(30deg * var(--i))) translate(0, -22vh) rotate(calc(-30deg * var(--i)));
+  transform: rotate(calc(30deg * var(--i))) translate(0, -30vh) rotate(calc(-30deg * var(--i)));
   filter: brightness(0) saturate(100%) invert(76%) sepia(79%) saturate(507%) hue-rotate(356deg) brightness(101%) contrast(103%);
 }
 
@@ -281,6 +286,13 @@ body {
     z-index: 4;
   }
 
+  .container img{
+    position: absolute;
+    width: 5vw; /* Adjust the size of the stars */
+    height: 5vw;
+    transform-origin: 50% 50%;
+    transform: rotate(calc(30deg * var(--i))) translate(0, -22vh) rotate(calc(-30deg * var(--i)));
+  }
   .topics-section {
     flex-direction: column;
   }
