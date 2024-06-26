@@ -144,7 +144,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 35vh;
+  padding-top: 55vh;
   padding-bottom: 55vh;
 }
 
@@ -279,6 +279,7 @@ body {
 
   .scroll-button {
     position: center;
+    align-self: center;
     font-size: 1.5rem;
     color: #003399;
     background-color: #ffffff;
@@ -332,8 +333,8 @@ body {
 }
 
 /* Apply animations to sections */
-.hero-content, .topic, .footer-section {
-  animation: fadeIn 1.2s ease-in-out;
+.hero-content h2, .topic, .footer-section {
+  animation: fadeIn 1.5s ease-in-out;
 }
 
 /* Microinteractions for buttons */
