@@ -222,8 +222,9 @@ body {
 }
 
 .topic-content .btn:hover {
-  background-color: #002266;
-  transform: scale(1.05);
+  color: #ffffff;
+  background-color: #fbff00;
+  transform: scale(1.15);
 }
 
 /* footer section */
