@@ -279,8 +279,8 @@ body {
   }
 
   .scroll-button {
-    position: center;
-    align-self: center;
+    margin: 0 auto; /* Center horizontally */
+    display: block; /* Make the button a block element */
     font-size: 1.5rem;
     color: #003399;
     background-color: #ffffff;
